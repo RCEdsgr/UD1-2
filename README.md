@@ -1,6 +1,7 @@
 # ARQUITECTURA DE VON NEWMAN
 ## **1. ¿Qué bloque crees que se encarga de realizar las sumas y restas?**
-###
+### En el caso de las operaciones el encargado de realizarlas es la ALU (o unidad aritmético-lógica) pudiendo cumplir con la función de sumas y restas de números enteros y operaciones más específicas como multiplicaciones y divisiones o incrementos y decrementos .
+
 ## **2. ¿Qué bloque dirige y gobierna al resto de unidades funcionales?**
 ###
 ## 3. **¿A qué bloque crees que pertenece la memoria RAM?**
