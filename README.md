@@ -23,11 +23,11 @@
 ## 6. **Enumera los elementos que componen la unidad de control, indicando para qué sirven.** 
 ### Contador de Programa :
 Contiene la dirección de las instrucciones que se deben ejecutar . Después de cada instrucción, el contador de programa se incrementa para apuntar a la siguiente instrucción en secuencia, o se actualiza en caso de una instrucción de salto o bifurcación.
-Registro de Instrucción :
+### Registro de Instrucción :
 Almacena la instrucción que está siendo actualmente ejecutada por la CPU. Una vez que el Contador de Programa apunta a la siguiente instrucción, esta se carga en el IR para su decodificación y ejecución.
-Decodificador de Instrucciones:
+### Decodificador de Instrucciones:
 Analiza la instrucción almacenada en el IR y genera las señales de control necesarias para que los diferentes componentes de la CPU realicen las acciones requeridas. Decodifica el código de operación y determina las acciones específicas que deben ejecutarse.
-Generador de Señales de Control:
+### Generador de Señales de Control:
 Produce señales de control que coordinan las operaciones de la ALU, los registros, la memoria y otros dispositivos de la CPU. Estas señales determinan qué acción debe realizarse en cada momento, como leer de memoria, escribir en un registro o realizar una operación aritmética.
 
 ## 7. **Enumera los elementos que componen la ALU, indicando para qué sirven.**
