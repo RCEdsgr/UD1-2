@@ -29,6 +29,15 @@ Almacena la instrucción que está siendo actualmente ejecutada por la CPU. Una 
 Analiza la instrucción almacenada en el IR y genera las señales de control necesarias para que los diferentes componentes de la CPU realicen las acciones requeridas. Decodifica el código de operación y determina las acciones específicas que deben ejecutarse.
 ### Generador de Señales de Control:
 Produce señales de control que coordinan las operaciones de la ALU, los registros, la memoria y otros dispositivos de la CPU. Estas señales determinan qué acción debe realizarse en cada momento, como leer de memoria, escribir en un registro o realizar una operación aritmética.
+### Unidad de Temporización y Sincronización:
+Gestiona el ritmo de las operaciones de la CPU utilizando el reloj del sistema. Asegura que todas las acciones se realicen en el momento adecuado, coordinando el tiempo entre las señales de control y la ejecución de las operaciones.
+### Unidad de Control de Secuencia:
+Determina el orden de ejecución de las instrucciones, manejando las operaciones secuenciales y de salto (bifurcación, bucles, saltos condicionales). Gestiona el flujo de control en los programas.
+### Registro de Estado o Registro de Banderas :
+Contiene banderas que indican el estado actual de la CPU y los resultados de operaciones lógicas o aritméticas, como la señal de cero, de acarreo, de desbordamiento, etc. Estas banderas ayudan a la Unidad de Control a tomar decisiones sobre las siguientes operaciones.
+### Control de Interrupciones:
+Permite a la CPU responder a eventos inesperados, como señales de entrada/salida, errores de hardware, o interrupciones de software. Pausa la ejecución normal para atender la interrupción y luego reanuda el proceso.
+
 
 ## 7. **Enumera los elementos que componen la ALU, indicando para qué sirven.**
 ###
