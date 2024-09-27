@@ -76,15 +76,15 @@ Son 3 buses concretamente , el bus de datos , bus de direcciones y el bus de con
 ### realiza la operación [(5+9)*(3-1)]/8
 
 *teniendo en cuenta que he tomado los valores de*
-**x=5**
-**y=9**
-**z=3**
-**w=1**
-**T0=8**
-**T1=(x+y)**
-**T2=(z-w)**
-**T3=(T1*T2)**
-**T4=T3/T0**
+#### **x=5**
+#### **y=9**
+#### **z=3**
+#### **w=1**
+#### **T0=8**
+#### **T1=(x+y)**
+#### **T2=(z-w)**
+#### **T3=(T1*T2)**
+#### **T4=T3/T0**
 *entonces el modelo de von newman sería capaz de hacer dicha operación si se introducen los valores de la siguiente manera*
 
 ![ups... parece que la imagen no carga](vonnewman.png)
