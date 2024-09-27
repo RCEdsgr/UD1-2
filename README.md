@@ -87,7 +87,7 @@ Son 3 buses concretamente , el bus de datos , bus de direcciones y el bus de con
 **T4=T3/T0**
 *entonces el modelo de von newman sería capaz de hacer dicha operación si se introducen los valores de la siguiente manera*
 
-![ups... parece que la imagen no carga](Arquitecturaneumann.jpg)
+![ups... parece que la imagen no carga](von newman.png)
 
 **Concluyendo con que el resultado es 2**
 
