@@ -40,7 +40,21 @@ Permite a la CPU responder a eventos inesperados, como señales de entrada/salid
 
 
 ## 7. **Enumera los elementos que componen la ALU, indicando para qué sirven.**
-###
+### Circuitos de Operaciones Aritméticas:
+Estos circuitos son responsables de realizar operaciones aritméticas básicas como suma, resta, multiplicación y división.
+### Circuitos de Operaciones Lógicas:
+Realizan operaciones lógicas bit a bit, esenciales para la manipulación de datos binarios.
+### Circuitos de Desplazamiento y Rotación:
+ Permite mover los bits de un operando hacia la izquierda o derecha.
+### Registro de Acumulador:
+Es un registro interno de la ALU que guarda temporalmente los resultados intermedios de las operaciones. Es esencial para realizar cálculos complejos en pasos sucesivos.
+### Registro de Estado o Registro de Banderas :
+Este registro guarda los indicadores de estado generados por las operaciones de la ALU.
+### Multiplexores (MUX):
+Controlan el flujo de datos dentro de la ALU, seleccionando qué datos se envían a través de los circuitos para su procesamiento.
+### Unidad de Control Local de la ALU:
+Controla las operaciones internas de la ALU, recibiendo instrucciones desde la Unidad de Control de la CPU y ejecutando las señales de control para activar los circuitos adecuados.
+
 ## 8. **Con respecto a la memoria principal, indica:** 
 ###
 ## 9. **Explica el funcionamiento de la máquina de Von-Neumann. Puedes apoyarte en el PowerPoint visto en clase.**
