@@ -56,7 +56,18 @@ Controlan el flujo de datos dentro de la ALU, seleccionando qué datos se envía
 Controla las operaciones internas de la ALU, recibiendo instrucciones desde la Unidad de Control de la CPU y ejecutando las señales de control para activar los circuitos adecuados.
 
 ## 8. **Con respecto a la memoria principal, indica:** 
-###
+### Cómo se encuentra organizada. 
+Se encuentra jerarquizada entre memoria de registro ( ubicada directamente en la CPU) , memoria caché ( memoria rápida en donde se encuentran datos frecuentemente usados) y la memoria RAM (donde se almacenan los datos y procesos que se mantienen activos)
+
+### Qué es una dirección de memoria.
+Se trata de un número o conjunto de números que indica el punto o localización exacta de un dato o una instrucción dentro de la memoria del equipo . Las direcciones actúan como puntos de referencia que el hardware y el software utilizan para acceder a la información almacenada.
+
+### Cuál es el espacio de direccionamiento 
+Es una representación lógica de todas las direcciones posibles que el hardware puede usar para localizar datos o instrucciones, tanto en la memoria principal (RAM) como en la memoria secundaria o masiva.
+
+### Qué buses se conectan a la memoria, y que envían/recogen.
+Son 3 buses concretamente , el bus de datos , bus de direcciones y el bus de control . 
+
 ## 9. **Explica el funcionamiento de la máquina de Von-Neumann. Puedes apoyarte en el PowerPoint visto en clase.**
 
 
